@@ -1,12 +1,12 @@
-# IOTA Pollen GUI Wallet
+# IOTA Devnet GUI Wallet
 
-IOTA Pollen wallet GUI, a lightweight wallet for the test Pollen network.
+IOTA Devnet wallet GUI, a lightweight wallet for the test Devnet network.
 
 <span style="color:#bb0000">The wallet is configured by default to connect to a node running on your local machine. You must either run a local node or change the settings to connect to a remote node [See settings](#settings).</span>
 
-**Disclaimer** - This wallet is intended to demonstrate how to communicate with the Pollen network, your seed is **NOT** stored securely.
+**Disclaimer** - This wallet is intended to demonstrate how to communicate with the Devnet network, your seed is **NOT** stored securely.
 
-![Pollen Wallet](images/pollen-wallet.png)
+![Devnet Wallet](images/pollen-wallet.png)
 
 ## Building
 
@@ -47,4 +47,4 @@ npm run package-linux
 
 By default the application is configured to access a `GoShimmer` nodes API running on your local machine at `http://127.0.0.1:8080`. To make it communicate with another node you can change the endpoint in the settings page.
 
-![Pollen Wallet](images/pollen-settings.png)
+![Devnet Wallet](images/pollen-settings.png)
